@@ -1,0 +1,76 @@
+/* General */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { line-height: 1.6; color: #333; }
+
+/* Navbar */
+nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 50px; background: #ff4d4d; color: white;
+}
+nav ul { display: flex; list-style: none; }
+nav ul li { margin-left: 20px; }
+nav ul li a { text-decoration: none; color: white; font-weight: bold; transition: 0.3s; }
+nav ul li a:hover { color: #ffdd57; }
+nav .btn {
+  background: #fff; color: #ff4d4d;
+  padding: 8px 15px; border-radius: 6px; text-decoration: none; font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  height: 95vh;
+  background: url("images/food-bg.jpg") no-repeat center/cover;
+  display: flex; justify-content: center; align-items: center; text-align: center; color: white;
+}
+.hero-text {
+  background: rgba(0,0,0,0.6);
+  padding: 50px; border-radius: 10px;
+}
+.hero h2 { font-size: 2.5rem; margin-bottom: 20px; }
+.hero p { font-size: 1.2rem; margin-bottom: 20px; }
+.hero .btn {
+  padding: 12px 20px; background: #ffdd57;
+  color: black; font-weight: bold; border-radius: 6px; text-decoration: none;
+  transition: 0.3s;
+}
+.hero .btn:hover { background: #fff; }
+
+/* Menu Section */
+#menu { padding: 60px 20px; text-align: center; background: #fff8f8; }
+#menu h2 { margin-bottom: 30px; }
+.menu-grid {
+  display: flex; justify-content: center; gap: 25px; flex-wrap: wrap;
+}
+.card {
+  background: #fff; padding: 20px; border-radius: 12px;
+  width: 250px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.card:hover { transform: translateY(-5px); }
+.card img { width: 100%; border-radius: 10px; margin-bottom: 15px; }
+.card button {
+  padding: 10px 15px; background: #ff4d4d; color: white; border: none;
+  border-radius: 6px; cursor: pointer; font-weight: bold;
+  transition: 0.3s;
+}
+.card button:hover { background: #e63e3e; }
+
+/* About Section */
+#about { padding: 60px 20px; background: url("images/kitchen-bg.jpg") no-repeat center/cover; color: white; text-align: center; }
+#about h2 { margin-bottom: 20px; }
+#about p { max-width: 700px; margin: auto; background: rgba(0,0,0,0.6); padding: 20px; border-radius: 10px; }
+
+/* Contact Section */
+#contact { padding: 60px 20px; background: #fafafa; text-align: center; }
+form input, form textarea {
+  width: 80%; padding: 12px; margin: 10px 0;
+  border: 1px solid #ccc; border-radius: 6px;
+}
+form button {
+  padding: 12px 20px; background: #ff4d4d; color: white;
+  border: none; border-radius: 6px; cursor: pointer; font-weight: bold;
+}
+form button:hover { background: #e63e3e; }
+
+/* Footer */
+footer { text-align: center; padding: 20px; background: #333; color: white; }
