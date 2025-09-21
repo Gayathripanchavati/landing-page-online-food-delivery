@@ -43,7 +43,7 @@ Installation & Usage
 
 Clone the repository:
 
-git clone https://github.com/yourusername/foodieexpress.git
+git clone https://github.com/Gayathripanchavati/foodieexpress.git
 
 
 Navigate to the project folder:
